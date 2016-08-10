@@ -768,7 +768,7 @@ input:-ms-input-placeholder {
     top: -75px;
     left: 50%;
     margin-left: -75px;
-    animation: animacion 2s infinite;
+    animation: animacion 1s infinite;
     -webkit-animation: animacion 1s infinite; /* Chrome, Safari, Opera */
     -moz-animation: animacion 1s infinite; /* Chrome, Safari, Opera */
     animation-direction: alternate;
@@ -921,6 +921,79 @@ input:-ms-input-placeholder {
 
 
 
+
+.cont-slider {
+    width: 100%;
+    background-color: #2f2d2e;
+    height: 400px;
+    margin: 10em 0;
+    position: relative;
+}
+
+.cont-slider .slider-comun {
+    width: 100%;
+    height: auto;
+    position: absolute;
+
+}
+
+.cont-slider .slider1 {
+    width: 100%;
+    z-index: 30;
+    animation: slider1 3s ease-in-out infinite alternate;
+    
+}
+
+@keyframes slider1 {
+    0% {
+        opacity: 1;
+    }    
+    
+    100% {
+        opacity: 0;
+    }
+} 
+
+
+
+.cont-slider .slider2 {
+    width: 100%;
+    z-index: 20;
+    animation: slider2 3s ease-in-out infinite alternate;
+    
+}
+
+@keyframes slider2 {
+    0% {
+        opacity: 0;
+    }    
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+/*.cont-slider .slider3 {
+    width: 100%;
+    z-index: 10;
+    animation: slider3 4s ease-in-out infinite alternate;
+    
+}
+
+@keyframes slider3 {
+    0% {
+        opacity: 0;
+    }    
+    
+    100% {
+        opacity: 1;
+    }
+}*/
 
 
 
