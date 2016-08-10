@@ -768,16 +768,16 @@ input:-ms-input-placeholder {
     top: -75px;
     left: 50%;
     margin-left: -75px;
-    animation: shimmy 2s infinite;
-    -webkit-animation: shimmy 1s infinite; /* Chrome, Safari, Opera */
-    -moz-animation: shimmy 1s infinite; /* Chrome, Safari, Opera */
+    animation: animacion 2s infinite;
+    -webkit-animation: animacion 1s infinite; /* Chrome, Safari, Opera */
+    -moz-animation: animacion 1s infinite; /* Chrome, Safari, Opera */
     animation-direction: alternate;
     -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
     -moz-animation-direction: alternate; /* Chrome, Safari, Opera */
 }
 
 
-@keyframes shimmy {
+@keyframes animacion {
   0% {
     transform: translate(0, 0);    
   }
