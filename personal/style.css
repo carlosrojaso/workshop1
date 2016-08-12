@@ -1,80 +1,58 @@
+/********************************
+             HEADER
+ *******************************/
 
-* {
-	font-family: 'Source Sans Pro', sans-serif;
-}
+ header {
+ 	background-color: #68ADC4;
+ 	width: 100%;
+ 	margin-top: -41px;
+ 	margin-bottom: -21px;
+ 	padding-bottom: -0px;
+ 	padding-top: -10px;
+ 	position: fixed;
+ }
 
-
-
-/************************************************
-                  HEADER
-************************************************/
-
-header {
-	background-color: #45A1BF;
-	width: 100%;
-	height: 100%;
- 	margin:auto;
- 	padding-top: 5px;
- 	padding-bottom: 40px;
- 	font-family: 'Lobster', cursive;
-}
 
 h1 {
+	color: #fff;
+	padding-top: 4%;
+	padding-left: 2%;
 	font-family: 'Lobster', cursive;
-	font-size: 50px;
-	text-align: center;
-	color: #fff;
-	margin-bottom: -10px;
+	font-size: 35px;
+	padding-bottom: 20px;
+	
 }
 
-#nav {
-	float: left;
+#logo {
+	padding-right: 10px;
+}
+
+#social-media {
+	float: right;
 	display: inline-block;
-	background-color: #085969;
-	color: #fff;
-	width: 100%; 
+	padding-right:  50px;
+	margin-top: -80px;
 }
+ 
+ #insta {
+ 	padding: 10px;
+ 	padding-bottom: 10px;
+ }
 
-#nav p {
-	display: inline-block;
-	margin-left: 20px;
-}
+ #spot {
+ 	padding: 10px;
+ }
 
-#nav p:hover {
-	color:#549AA8;
-}
+ #face {
+ 	padding: 10px;
+ }
 
-
-#home {
-	margin-left: 20px;
-	margin-bottom: -5px;
-}
-
-#insta {
-	float: right;
-	margin-right: 20px;
-	margin-top: 15px;
-}
-
-#spoty {
-	float: right;
-	margin-right: 20px;
-	margin-top: 15px;
-}
-
-#face {
-	float: right;
-	margin-right: 20px;
-	margin-top: 15px;
-}
-
-
-
-/*************************************************
-                   BODY 
-*************************************************/
-
-
+ #youtube {
+ 	padding: 10px;
+ }
+ /*******************************
+             BODY 
+   *****************************/
 
   body {
   	width: 100%;
@@ -83,71 +61,3 @@ h1 {
   	padding: 0;
   }
 
- #profile {
-	background-color: #A0CBD9;
-	width: 34%;
-	color: #40484A;
-	max-width: 350px;
-	text-align: center;
-	border-width: 10px;
-	border-color: #fff;
-	float: left;
-
-
-}
-
-#profile img {
-	max-width: 300px;
-	max-height: 300px;
-	border-radius: 100%;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-
-#bio {
-background-color: #A0CBD9;
-	width: 16,5%;
-	color: #40484A;
-	max-width: 350px;
-	text-align: center;
-	float: left;
-}
-
-#exp {
-	background-color: #A0CBD9;
-	width: 16,5%;
-	color: #40484A;
-	max-width: 350px;
-	text-align: center;
-	float: left;
-}
-
-#abil {
-	background-color: #A0CBD9;
-	width: 16,5%;
-	color: #40484A;
-	max-width: 350px;
-	text-align: center;
-	float: left;
-}
-
-div {
-	display: inline-block;
-	height: 100%;
-	width: 25%;
-	background-color: #C4CDCF;
-}
-
-/*********************************************
-                  FOOTER
-*********************************************/
-
-#contact {
-	background-color: #A0CBD9;
-	width: 50%;
-	color: #40484A;
-	max-width: 350px;
-	text-align: center;
-}
